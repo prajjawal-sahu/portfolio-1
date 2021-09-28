@@ -89,12 +89,12 @@ class Contact extends Component {
       <Container>
         <ContactTitle scrollPercent={scrollPercent}>CONTACT</ContactTitle>
         <SocialMediaIcons>
-          <SocialLogo imgURL={twitterImg} alternate="Twitter" redirectURL="https://twitter.com/sureshmurali29" />
-          <SocialLogo imgURL={githubImg} alternate="Github" redirectURL="https://github.com/sureshmurali" />
-          <SocialLogo imgURL={mailImg} alternate="Mail" redirectURL="mailto:sureshmurali29@gmail.com" />
-          <SocialLogo imgURL={instaImg} alternate="Instagram" redirectURL="https://www.instagram.com/suresh_murali/" />
-          <SocialLogo imgURL={dribbbleImg} alternate="Dribbble" redirectURL="https://dribbble.com/sureshmurali29" />
-          <SocialLogo imgURL={linkedInImg} alternate="Linkedin" redirectURL="https://www.linkedin.com/in/sureshmurali29" />
+          {/* <SocialLogo imgURL={twitterImg} alternate="Twitter" redirectURL="https://twitter.com/prajjawalsahu" /> */}
+          <SocialLogo imgURL={githubImg} alternate="Github" redirectURL="https://github.com/prajjawalsahu" />
+          <SocialLogo imgURL={mailImg} alternate="Mail" redirectURL="mailto:prajjawalsahu2001@gmail.com" />
+          <SocialLogo imgURL={instaImg} alternate="Instagram" redirectURL="https://www.instagram.com/prajjawalsahu/" />
+          {/* <SocialLogo imgURL={dribbbleImg} alternate="Dribbble" redirectURL="https://dribbble.com/sureshmurali29" /> */}
+          <SocialLogo imgURL={linkedInImg} alternate="Linkedin" redirectURL="https://www.linkedin.com/in/prajjawal-sahu-7372791b5/" />
         </SocialMediaIcons>
       </Container>
     );
